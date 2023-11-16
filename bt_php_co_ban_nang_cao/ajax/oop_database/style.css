@@ -1,0 +1,34 @@
+body{
+	margin: 30px 100px; font:normal 14pt Arial;
+}
+
+table{
+	border-collapse:collapse; border: solid 2px green;
+}
+
+td{
+	padding: 3px 8px;font:normal 14pt Arial;border: solid 1px silver;
+	background-color:white;
+}
+
+th{
+	padding: 3px 5px;border: solid 1px silver; color:blue; background-color:#eaffea;
+}
+
+tr:hover{background-color:yellow; color:red;}
+
+h1{
+	font:bold 36pt "Times New Roman"; color:blue;
+	text-shadow: 1px 1px 5px #ff0000;
+}
+
+select{
+	font:normal 14pt Arial;color:blue;
+	padding: 3px 3px;
+}
+
+div{
+	background-color:#f47a82e8; padding: 15px;
+	width:700px;
+}
+p{color:silver;}
