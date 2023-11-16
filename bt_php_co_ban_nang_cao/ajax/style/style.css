@@ -1,0 +1,39 @@
+body{margin:40px 80px; font:normal 16pt Arial;color:navy}
+
+h1,h2,h3{color:white;text-shadow: 2px 2px 5px red, -2px -2px 5px red}
+
+table{border-collapse:collapse; border:solid 2px green}
+
+input, td{border:solid 1px silver; font:normal 16pt Arial;padding: 5px 8px}
+
+input[type=submit]{font:normal 16pt Arial;padding: 3px 5px;float:right}
+
+fieldset{width:360px; border-radius:10px;border:solid 1px green}
+
+button:hover{color:red,cursor:pointer}
+
+input[type=button]{float:right; margin-left:5px}
+
+legend{color:blue}
+.gray{
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+img:hover{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+img{float:left; margin-right:12px}
+
+input[type=button]:hover{
+	background-color:red;
+	color:white;
+}
+
+h2:hover{color:yellow}
+
+a:link,a:visited,a:active{text-decoration:none; color:green}
+
+a:hover{text-decoration:underline; color:red}
